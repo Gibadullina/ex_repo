@@ -139,6 +139,6 @@ text = 'x'
 # text = input ('Введите символ для пирамидки: ')
 for i in range(2, count, 2):
     txt = text*i
-    txt1 = txt[:1].upper() + txt[1:]
+    txt1 = txt[:1].upper() + txt[1:].lower()
     txt2 = txt1[:-1] + txt1[-1:].upper()
     print(txt2)
