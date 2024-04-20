@@ -6,7 +6,7 @@ print('Способ 1 цикл for')
 number1 = int(input('Введите число: '))
 count1 = 0
 
-for x in range(number1):
+for x in str(number1):
     count1 += 1
 print(f'Количество цифр в числе = {count1}')
 

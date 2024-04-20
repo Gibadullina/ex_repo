@@ -1,5 +1,6 @@
 # Задание 4
 # 1 способ (без ввода данных)
+print('Способ 1')
 list2 = ['Rose', 'Tulip', 'Iris', 'Blueberry', 'Strawberry', 'Raspberry']
 for i, j in enumerate(list2, start=1):
     if i % 3 == 0:
